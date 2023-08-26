@@ -1,0 +1,7 @@
+services:
+  ruby_jupiter:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./jupiter:/home/jovyan/work
